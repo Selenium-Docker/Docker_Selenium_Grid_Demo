@@ -1,0 +1,7 @@
+application:
+  name: Docker_Selenim_Grid_Demo
+  package: org.qawapon.com.Docker_Selenim_Grid_Demo
+spring:
+  application:
+    name: ${application.name}
+
