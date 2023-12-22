@@ -9,36 +9,157 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Web sampleTest</th></tr>
-<tr><td><a href="#t0">basicTest</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">25,664</td><td></td><td></td></tr>
+<tr><td><a href="#t0">basicTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">5,652</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Web sampleTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">basicTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qaweapon.Test.GoogleSearchTest</td><td><a href="#m0">googleSearchTest</a></td><td rowspan="1">1644133270858</td><td rowspan="1">17624</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Web sampleTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">basicTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qaweapon.Test.GoogleSearchTest</td><td><a href="#m0">beforeTest</a></td><td rowspan="1">1703126856765</td><td rowspan="1">5632</td></tr><tr><th colspan="4">basicTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="4">com.qaweapon.Test.GoogleSearchTest</td><td><a href="#m1">afterMethod</a></td><td rowspan="1">1703126862415</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">afterSuite</a></td><td rowspan="1">1703126862471</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">afterTest</a></td><td rowspan="1">1703126862416</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">beforeMethod</a></td><td rowspan="1">1703126862414</td><td rowspan="1">0</td></tr><tr><th colspan="4">basicTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qaweapon.Test.GoogleSearchTest</td><td><a href="#m5">googleSearchTest</a></td><td rowspan="1">1703126862415</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>basicTest</h2><h3 id="m0">com.qaweapon.Test.GoogleSearchTest#googleSearchTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;uEierd&apos;]//div[@role=&apos;heading&apos;]&quot;}
-  (Session info: MicrosoftEdge=96.0.1054.62)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<h2>basicTest</h2><h3 id="m0">com.qaweapon.Test.GoogleSearchTest#beforeTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
-System info: host: &apos;vivek.parmar-MacBook-Pro&apos;, ip: &apos;fe80:0:0:0:4f1:cb42:363a:4e6b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;17.0.1&apos;
+System info: host: &apos;Viveks-MacBook-Air.local&apos;, ip: &apos;2604:3d09:2580:4b00:84d6:6612:b828:8906%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [541fbf5be926ffb142626c9eb6005c28, findElement {using=xpath, value=//div[@class=&apos;uEierd&apos;]//div[@role=&apos;heading&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 96.0.1054.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:45845}, msedge: {msedgedriverVersion: 96.0.1054.62 (f97cb2ce0103f..., userDataDir: /tmp/.com.microsoft.Edge.yO...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.5:4444/sessio..., se:cdpVersion: 96.0.1054.62, se:vnc: ws://172.18.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 541fbf5be926ffb142626c9eb6005c28
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:39)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at com.qaweapon.coreclasses.BasePage.getText(BasePage.java:82)
-	at com.qaweapon.pageobjects.SearchResultPage.verifySearchResult(SearchResultPage.java:19)
-	at com.qaweapon.Test.GoogleSearchTest.googleSearchTest(GoogleSearchTest.java:27)
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}}]
+Capabilities {}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:146)
+	at com.qaweapon.coreclasses.DriverFactory.runOnDocker(DriverFactory.java:172)
+	at com.qaweapon.coreclasses.DriverFactory.buildLocal(DriverFactory.java:91)
+	at com.qaweapon.coreclasses.DriverFactory.build(DriverFactory.java:50)
+	at com.qaweapon.coreclasses.BaseTest.beforeTest(BaseTest.java:48)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:80)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:119)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:39)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	... 26 more
+Caused by: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qaweapon.Test.GoogleSearchTest#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qaweapon.Test.GoogleSearchTest#afterSuite</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qaweapon.Test.GoogleSearchTest#afterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qaweapon.Test.GoogleSearchTest#beforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qaweapon.Test.GoogleSearchTest#googleSearchTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;Viveks-MacBook-Air.local&apos;, ip: &apos;2604:3d09:2580:4b00:84d6:6612:b828:8906%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}}]
+Capabilities {}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:146)
+	at com.qaweapon.coreclasses.DriverFactory.runOnDocker(DriverFactory.java:172)
+	at com.qaweapon.coreclasses.DriverFactory.buildLocal(DriverFactory.java:91)
+	at com.qaweapon.coreclasses.DriverFactory.build(DriverFactory.java:50)
+	at com.qaweapon.coreclasses.BaseTest.beforeTest(BaseTest.java:48)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:80)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:119)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:39)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	... 26 more
+Caused by: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

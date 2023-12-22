@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Web sampleTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="basicTest(failed)">
+    <classes>
+      <class name="com.qaweapon.Test.GoogleSearchTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="googleSearchTest"/>
+        </methods>
+      </class> <!-- com.qaweapon.Test.GoogleSearchTest -->
+    </classes>
+  </test> <!-- basicTest(failed) -->
+</suite> <!-- Failed suite [Web sampleTest] -->

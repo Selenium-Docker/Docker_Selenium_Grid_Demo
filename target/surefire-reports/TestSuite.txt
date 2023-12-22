@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.29 s <<< FAILURE! - in TestSuite
-googleSearchTest(com.qaweapon.Test.GoogleSearchTest)  Time elapsed: 17.629 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='uEierd']//div[@role='heading']"}
-  (Session info: MicrosoftEdge=96.0.1054.62)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 6.778 s <<< FAILURE! - in TestSuite
+beforeTest(com.qaweapon.Test.GoogleSearchTest)  Time elapsed: 6.652 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'vivek.parmar-MacBook-Pro', ip: 'fe80:0:0:0:4f1:cb42:363a:4e6b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+System info: host: 'Viveks-MacBook-Air.local', ip: '2604:3d09:2580:4b00:84d6:6612:b828:8906%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [541fbf5be926ffb142626c9eb6005c28, findElement {using=xpath, value=//div[@class='uEierd']//div[@role='heading']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 96.0.1054.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:45845}, msedge: {msedgedriverVersion: 96.0.1054.62 (f97cb2ce0103f..., userDataDir: /tmp/.com.microsoft.Edge.yO...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.5:4444/sessio..., se:cdpVersion: 96.0.1054.62, se:vnc: ws://172.18.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 541fbf5be926ffb142626c9eb6005c28
-	at com.qaweapon.Test.GoogleSearchTest.googleSearchTest(GoogleSearchTest.java:27)
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}}]
+Capabilities {}
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused
 

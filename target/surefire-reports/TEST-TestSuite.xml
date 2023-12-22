@@ -1,367 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="26.29" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.778" tests="6" errors="0" skipped="5" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/vivek.parmar/eclipse-workspace/Docker_Selenim_Grid_Demo/target/test-classes:/Users/vivek.parmar/eclipse-workspace/Docker_Selenim_Grid_Demo/target/classes:/Users/vivek.parmar/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/vivek.parmar/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/vivek.parmar/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/vivek.parmar/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/vivek.parmar/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/vivek.parmar/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/vivek.parmar/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vivek.parmar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vivek.parmar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vivek.parmar/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/vivek.parmar/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/vivek.parmar/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/vivek.parmar/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/vivek.parmar/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/vivek.parmar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/vivek.parmar/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/vivek.parmar/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/vivek.parmar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/vivek.parmar/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/vivek.parmar/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/Users/vivek.parmar/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar:/Users/vivek.parmar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/vivek.parmar/.m2/repository/org/apache/logging/log4j/log4j-core/2.5/log4j-core-2.5.jar:/Users/vivek.parmar/.m2/repository/org/apache/logging/log4j/log4j-api/2.5/log4j-api-2.5.jar:/Users/vivek.parmar/.m2/repository/io/github/bonigarcia/webdrivermanager/3.6.0/webdrivermanager-3.6.0.jar:/Users/vivek.parmar/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/vivek.parmar/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/vivek.parmar/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/vivek.parmar/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/vivek.parmar/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/vivek.parmar/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vivek.parmar/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/vivek.parmar/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/vivek.parmar/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/vivek.parmar/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/vivek.parmar/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/vivek.parmar/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/vivek.parmar/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/vivek.parmar/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/vivek.parmar/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/vivek.parmar/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:"/>
+    <property name="java.class.path" value="/Users/vivekparmar/Desktop/Docker_Selenium_Grid_Demo/target/test-classes:/Users/vivekparmar/Desktop/Docker_Selenium_Grid_Demo/target/classes:/Users/vivekparmar/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/vivekparmar/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/vivekparmar/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/vivekparmar/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/vivekparmar/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/vivekparmar/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/vivekparmar/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vivekparmar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vivekparmar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vivekparmar/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/vivekparmar/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/vivekparmar/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/vivekparmar/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/vivekparmar/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/vivekparmar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/vivekparmar/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/vivekparmar/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/vivekparmar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/vivekparmar/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/vivekparmar/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/Users/vivekparmar/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar:/Users/vivekparmar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/vivekparmar/.m2/repository/org/apache/logging/log4j/log4j-core/2.5/log4j-core-2.5.jar:/Users/vivekparmar/.m2/repository/org/apache/logging/log4j/log4j-api/2.5/log4j-api-2.5.jar:/Users/vivekparmar/.m2/repository/io/github/bonigarcia/webdrivermanager/3.6.0/webdrivermanager-3.6.0.jar:/Users/vivekparmar/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/vivekparmar/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/vivekparmar/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/vivekparmar/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/vivekparmar/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/vivekparmar/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vivekparmar/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/vivekparmar/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/vivekparmar/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/vivekparmar/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/vivekparmar/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/vivekparmar/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/vivekparmar/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/vivekparmar/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/vivekparmar/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/vivekparmar/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/Users/vivek.parmar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre/lib"/>
-    <property name="sun.java.command" value="/Users/vivek.parmar/eclipse-workspace/Docker_Selenim_Grid_Demo/target/surefire/surefirebooter17311183848945198183.jar /Users/vivek.parmar/eclipse-workspace/Docker_Selenim_Grid_Demo/target/surefire 2022-02-06T13-11-02_159-jvmRun1 surefire15477658470741123242tmp surefire_0538453183019133391tmp"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/Users/vivekparmar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.9.v20231028-0858/jre/lib"/>
+    <property name="sun.java.command" value="/Users/vivekparmar/Desktop/Docker_Selenium_Grid_Demo/target/surefire/surefirebooter11684482400502718310.jar /Users/vivekparmar/Desktop/Docker_Selenium_Grid_Demo/target/surefire 2023-12-20T19-47-34_519-jvmRun1 surefire15650655733205747087tmp surefire_01684513299154593819tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/vivek.parmar/eclipse-workspace/Docker_Selenim_Grid_Demo/target/test-classes:/Users/vivek.parmar/eclipse-workspace/Docker_Selenim_Grid_Demo/target/classes:/Users/vivek.parmar/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/vivek.parmar/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/vivek.parmar/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/vivek.parmar/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/vivek.parmar/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/vivek.parmar/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/vivek.parmar/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vivek.parmar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vivek.parmar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vivek.parmar/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/vivek.parmar/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/vivek.parmar/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/vivek.parmar/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/vivek.parmar/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/vivek.parmar/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/vivek.parmar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/vivek.parmar/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/vivek.parmar/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/vivek.parmar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/vivek.parmar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/vivek.parmar/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/vivek.parmar/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/vivek.parmar/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/Users/vivek.parmar/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar:/Users/vivek.parmar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/vivek.parmar/.m2/repository/org/apache/logging/log4j/log4j-core/2.5/log4j-core-2.5.jar:/Users/vivek.parmar/.m2/repository/org/apache/logging/log4j/log4j-api/2.5/log4j-api-2.5.jar:/Users/vivek.parmar/.m2/repository/io/github/bonigarcia/webdrivermanager/3.6.0/webdrivermanager-3.6.0.jar:/Users/vivek.parmar/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/vivek.parmar/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/vivek.parmar/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/vivek.parmar/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/vivek.parmar/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/vivek.parmar/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vivek.parmar/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/vivek.parmar/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/vivek.parmar/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/vivek.parmar/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/vivek.parmar/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/vivek.parmar/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/vivek.parmar/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/vivek.parmar/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/vivek.parmar/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/vivek.parmar/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/vivekparmar/Desktop/Docker_Selenium_Grid_Demo/target/test-classes:/Users/vivekparmar/Desktop/Docker_Selenium_Grid_Demo/target/classes:/Users/vivekparmar/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/vivekparmar/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/vivekparmar/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/vivekparmar/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/vivekparmar/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/vivekparmar/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/vivekparmar/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vivekparmar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vivekparmar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vivekparmar/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/vivekparmar/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/vivekparmar/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/vivekparmar/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/vivekparmar/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/vivekparmar/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/vivekparmar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/vivekparmar/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/vivekparmar/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/vivekparmar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/vivekparmar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/vivekparmar/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/vivekparmar/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/vivekparmar/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/Users/vivekparmar/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar:/Users/vivekparmar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/vivekparmar/.m2/repository/org/apache/logging/log4j/log4j-core/2.5/log4j-core-2.5.jar:/Users/vivekparmar/.m2/repository/org/apache/logging/log4j/log4j-api/2.5/log4j-api-2.5.jar:/Users/vivekparmar/.m2/repository/io/github/bonigarcia/webdrivermanager/3.6.0/webdrivermanager-3.6.0.jar:/Users/vivekparmar/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/vivekparmar/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/vivekparmar/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/vivekparmar/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/vivekparmar/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/vivekparmar/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vivekparmar/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/vivekparmar/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/vivekparmar/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/vivekparmar/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/vivekparmar/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/vivekparmar/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/vivekparmar/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/vivekparmar/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/vivekparmar/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/vivekparmar/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/vivek.parmar"/>
+    <property name="user.home" value="/Users/vivekparmar"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="env.browser.name" value="edge"/>
-    <property name="java.version.date" value="2021-10-19"/>
-    <property name="java.home" value="/Users/vivek.parmar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre"/>
-    <property name="env.remote.url" value="https://www.google.com"/>
+    <property name="env.browser.name" value="chrome"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Users/vivekparmar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.9.v20231028-0858/jre"/>
+    <property name="env.remote.url" value="https://www.google.com/"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/vivek.parmar/eclipse-workspace/Docker_Selenim_Grid_Demo"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/Users/vivekparmar/Desktop/Docker_Selenium_Grid_Demo"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="app.env" value="local"/>
-    <property name="surefire.real.class.path" value="/Users/vivek.parmar/eclipse-workspace/Docker_Selenim_Grid_Demo/target/surefire/surefirebooter17311183848945198183.jar"/>
+    <property name="surefire.real.class.path" value="/Users/vivekparmar/Desktop/Docker_Selenium_Grid_Demo/target/surefire/surefirebooter11684482400502718310.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="app.runOnDocker" value="true"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="17.0.1+12"/>
-    <property name="user.name" value="vivek.parmar"/>
+    <property name="java.runtime.version" value="17.0.9+9"/>
+    <property name="user.name" value="vivekparmar"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="10.16"/>
+    <property name="os.version" value="14.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
-    <property name="localRepository" value="/Users/vivek.parmar/.m2/repository"/>
+    <property name="java.vendor.version" value="Temurin-17.0.9+9"/>
+    <property name="localRepository" value="/Users/vivekparmar/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
-    <property name="java.io.tmpdir" value="/var/folders/2n/3x2w5kxx1qq5xjt_gb65qx940000gp/T/"/>
-    <property name="java.version" value="17.0.1"/>
-    <property name="user.dir" value="/Users/vivek.parmar/eclipse-workspace/Docker_Selenim_Grid_Demo"/>
+    <property name="java.io.tmpdir" value="/var/folders/rk/8zzrf5_54112dy5my1tbp2rc0000gn/T/"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="/Users/vivekparmar/Desktop/Docker_Selenium_Grid_Demo"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/vivek.parmar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.library.path" value="/Users/vivekparmar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="17.0.1+12"/>
+    <property name="java.vm.version" value="17.0.9+9"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="googleSearchTest" classname="com.qaweapon.Test.GoogleSearchTest" time="17.629">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;uEierd&apos;]//div[@role=&apos;heading&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=96.0.1054.62)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;&#10;System info: host: &apos;vivek.parmar-MacBook-Pro&apos;, ip: &apos;fe80:0:0:0:4f1:cb42:363a:4e6b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [541fbf5be926ffb142626c9eb6005c28, findElement {using=xpath, value=//div[@class=&apos;uEierd&apos;]//div[@role=&apos;heading&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 96.0.1054.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:45845}, msedge: {msedgedriverVersion: 96.0.1054.62 (f97cb2ce0103f..., userDataDir: /tmp/.com.microsoft.Edge.yO...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.5:4444/sessio..., se:cdpVersion: 96.0.1054.62, se:vnc: ws://172.18.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 541fbf5be926ffb142626c9eb6005c28" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='uEierd']//div[@role='heading']"}
-  (Session info: MicrosoftEdge=96.0.1054.62)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+  <testcase name="beforeTest" classname="com.qaweapon.Test.GoogleSearchTest" time="6.652">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;&#10;System info: host: &apos;Viveks-MacBook-Air.local&apos;, ip: &apos;2604:3d09:2580:4b00:84d6:6612:b828:8906%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}}]&#10;Capabilities {}" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'vivek.parmar-MacBook-Pro', ip: 'fe80:0:0:0:4f1:cb42:363a:4e6b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+System info: host: 'Viveks-MacBook-Air.local', ip: '2604:3d09:2580:4b00:84d6:6612:b828:8906%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [541fbf5be926ffb142626c9eb6005c28, findElement {using=xpath, value=//div[@class='uEierd']//div[@role='heading']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 96.0.1054.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:45845}, msedge: {msedgedriverVersion: 96.0.1054.62 (f97cb2ce0103f..., userDataDir: /tmp/.com.microsoft.Edge.yO...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.5:4444/sessio..., se:cdpVersion: 96.0.1054.62, se:vnc: ws://172.18.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 541fbf5be926ffb142626c9eb6005c28
-	at com.qaweapon.Test.GoogleSearchTest.googleSearchTest(GoogleSearchTest.java:27)
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}}]
+Capabilities {}
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused
 </failure>
-    <system-out><![CDATA[Initializing Edge Browser in Docker Container.
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Initializing Chrome Browser in Docker Container.
 0 [TestNG-tests-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using SLF4J as the default logging framework
 2 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
-3 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
-5 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@533e71e0
-15 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - -Dio.netty.noUnsafe: false
-15 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - Java version: 17
-16 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
-17 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
-17 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
-17 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-18 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
-18 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @38c6f217
-19 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-19 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
-20 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - maxDirectMemory: 17179869184 bytes (maybe)
-20 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: /var/folders/2n/3x2w5kxx1qq5xjt_gb65qx940000gp/T (java.io.tmpdir)
-20 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-20 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - Platform: MacOS
-21 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.maxDirectMemory: -1 bytes
-21 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-21 [TestNG-tests-1] DEBUG io.netty.util.internal.CleanerJava9  - java.nio.ByteBuffer.cleaner(): available
-21 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
-26 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
-36 [TestNG-tests-1] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-36 [TestNG-tests-1] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-169 [TestNG-tests-1] DEBUG io.netty.handler.ssl.JdkSslContext  - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-169 [TestNG-tests-1] DEBUG io.netty.handler.ssl.JdkSslContext  - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-182 [TestNG-tests-1] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 24
-188 [TestNG-tests-1] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
-188 [TestNG-tests-1] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
-205 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 24
-205 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 24
-205 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
-205 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
-205 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
-205 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
-205 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
-205 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-205 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
-206 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-206 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: true
-206 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-212 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
-213 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 0
-213 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-397 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 41094 (auto-detected)
-398 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
-398 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
-402 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations  - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
-403 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
-404 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
-432 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkAccessible: true
-432 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkBounds: true
-432 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@77b8d533
-444 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener  - Using new Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to '/wd/hub/session'
-450 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.maxCapacityPerThread: 4096
-450 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.maxSharedCapacityFactor: 2
-450 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.linkCapacity: 16
-450 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.ratio: 8
-450 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.delayedQueue.ratio: 8
-3572 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli  - brotli4j not in the classpath; Brotli support will be unavailable.
-3573 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-c5e7f2a9d74c6bac4c3d828b68ae3a11-0995f2a8b2d727dc-01
-Content-Length: 1045
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 200 OK
-Cache-Control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 1334
-
-3577 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
-3634 [Forwarding get on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using pooled Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/url'
-3634 [Forwarding get on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using open Channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/url'
-7932 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session/541fbf5be926ffb142626c9eb6005c28/url HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-5a5dc87c7672a84420994d734e54996d-d48dba63239caa9b-01
-Content-Length: 47
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 200 OK
-cache-control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 14
-
-7933 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
-7955 [Forwarding findElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using pooled Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element'
-7955 [Forwarding findElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using open Channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element'
-7994 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-77810b4a3aa475a8b89696dddc03f515-30a631689285f81e-01
-Content-Length: 55
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 200 OK
-cache-control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 88
-
-7994 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
-7999 [Forwarding executeScript on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using pooled Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/execute/sync'
-7999 [Forwarding executeScript on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using open Channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/execute/sync'
-8047 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session/541fbf5be926ffb142626c9eb6005c28/execute/sync HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-4072180ee289ed7cc0609d456763fafe-4d0aa2a954b35a6f-01
-Content-Length: 229
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 200 OK
-cache-control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 14
-
-8047 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
-8050 [Forwarding findElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using pooled Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element'
-8050 [Forwarding findElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using open Channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element'
-8105 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-03f8eadfff6d8a5ae4191f3cad65d192-fe2ab8003e6be1b5-01
-Content-Length: 55
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 200 OK
-cache-control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 88
-
-8105 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
-8112 [Forwarding sendKeysToElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using pooled Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element/b30b641e-e73c-4b1f-91c9-782b23bb2ac6/value'
-8112 [Forwarding sendKeysToElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using open Channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element/b30b641e-e73c-4b1f-91c9-782b23bb2ac6/value'
-8234 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element/b30b641e-e73c-4b1f-91c9-782b23bb2ac6/value HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-aa1d1f09524237ae2adecae35c1d8c10-591e51ccb8494437-01
-Content-Length: 121
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 200 OK
-cache-control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 14
-
-8234 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
-8235 [TestNG-tests-1] INFO com.qaweapon.pageobjects.GoogleHomePage  - Serach keyword entered.
-8933 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool  - Entry count for : http://localhost:4444 : 1
-10029 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool  - Entry count for : http://localhost:4444 : 1
-11131 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool  - Entry count for : http://localhost:4444 : 1
-11242 [Forwarding findElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using pooled Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element'
-11242 [Forwarding findElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using open Channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element'
-11278 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-e2bdf54ef1e1939544e9905361157a92-1b4e0ed72ca0663c-01
-Content-Length: 58
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 200 OK
-cache-control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 88
-
-11279 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
-11281 [Forwarding executeScript on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using pooled Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/execute/sync'
-11281 [Forwarding executeScript on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using open Channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/execute/sync'
-11323 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session/541fbf5be926ffb142626c9eb6005c28/execute/sync HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-9ceeaca4ec1e1330e36eea7aee74e387-e8264561c1320f3f-01
-Content-Length: 229
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 200 OK
-cache-control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 14
-
-11323 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
-11325 [Forwarding findElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using pooled Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element'
-11325 [Forwarding findElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using open Channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element'
-11376 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-4ec7fb23153046690e589f336ff77b82-dcdcf7094db34011-01
-Content-Length: 58
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 200 OK
-cache-control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 88
-
-11376 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
-11379 [Forwarding clickElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using pooled Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element/98b1c896-ed62-4442-bfe5-2ac70364089c/click'
-11379 [Forwarding clickElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using open Channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element/98b1c896-ed62-4442-bfe5-2ac70364089c/click'
-20504 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element/98b1c896-ed62-4442-bfe5-2ac70364089c/click HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-da95ff4b78105e0bc96228a70817db4b-37d417f80e78de2c-01
-Content-Length: 50
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 200 OK
-cache-control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 14
-
-20504 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
-21032 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool  - Entry count for : http://localhost:4444 : 1
-22132 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool  - Entry count for : http://localhost:4444 : 1
-23233 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool  - Entry count for : http://localhost:4444 : 1
-24331 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool  - Entry count for : http://localhost:4444 : 1
-25429 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool  - Entry count for : http://localhost:4444 : 1
-25510 [TestNG-tests-1] INFO com.qaweapon.pageobjects.GoogleHomePage  - Clicked on search button.
-25512 [Forwarding findElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using pooled Channel '[id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element'
-25512 [Forwarding findElement on session 541fbf5be926ffb142626c9eb6005c28 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender  - Using open Channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element'
-25562 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler  - 
-
-Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /wd/hub/session/541fbf5be926ffb142626c9eb6005c28/element HTTP/1.1
-User-Agent: selenium/4.0.0 (java mac)
-traceparent: 00-81af428528f63a054d110e484e88fa92-85eea0cf626d038c-01
-Content-Length: 101
-Content-Type: application/json; charset=utf-8
-host: localhost:4444
-accept: */*
-
-Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
-HTTP/1.1 404 Not Found
-cache-control: no-cache
-Content-Type: application/json; charset=utf-8
-content-length: 964
-
-25563 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager  - Adding key: http://localhost:4444 for channel [id: 0xcd33fb86, L:/127.0.0.1:53024 - R:localhost/127.0.0.1:4444]
+2 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
+6 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@10d78237
+17 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - -Dio.netty.noUnsafe: false
+17 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - Java version: 17
+18 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+19 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+20 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+20 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+21 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
+22 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1f81aa00
+23 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+23 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+24 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - maxDirectMemory: 4294967296 bytes (maybe)
+24 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: /var/folders/rk/8zzrf5_54112dy5my1tbp2rc0000gn/T (java.io.tmpdir)
+24 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+25 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - Platform: MacOS
+25 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.maxDirectMemory: -1 bytes
+25 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+26 [TestNG-tests-1] DEBUG io.netty.util.internal.CleanerJava9  - java.nio.ByteBuffer.cleaner(): available
+26 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+31 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+47 [TestNG-tests-1] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+47 [TestNG-tests-1] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+70 [TestNG-tests-1] DEBUG io.netty.handler.ssl.JdkSslContext  - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+70 [TestNG-tests-1] DEBUG io.netty.handler.ssl.JdkSslContext  - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+84 [TestNG-tests-1] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 16
+102 [TestNG-tests-1] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+102 [TestNG-tests-1] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 16
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 16
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: true
+117 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+123 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+123 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 0
+123 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+5368 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 20254 (auto-detected)
+5373 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
+5373 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
+5384 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations  - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+5386 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+5388 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: 74:a6:cd:ff:fe:cf:b2:ca (auto-detected)
+5429 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkAccessible: true
+5429 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkBounds: true
+5429 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3ca6ca33
+5442 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener  - Trying to recover from failing to connect channel [id: 0x5b1239ce, L:null ! R:localhost/[0:0:0:0:0:0:0:1]:4444] with a retry value of true 
+5443 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener  - Failed to recover from connect exception: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444 with channel [id: 0x5b1239ce, L:null ! R:localhost/[0:0:0:0:0:0:0:1]:4444]
+5443 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.AsyncCompletionHandler  - Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
 ]]></system-out>
     <system-err><![CDATA[log4j:ERROR Could not read configuration file [log4j.properties].
 java.io.FileNotFoundException: log4j.properties (No such file or directory)
@@ -397,10 +204,23 @@ java.io.FileNotFoundException: log4j.properties (No such file or directory)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 log4j:ERROR Ignoring configuration file [log4j.properties].
-Feb 06, 2022 1:11:02 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+Dec 20, 2023 7:47:36 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
 INFO: Using OpenTelemetry for tracing
-Feb 06, 2022 1:11:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.qaweapon.Test.GoogleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="googleSearchTest" classname="com.qaweapon.Test.GoogleSearchTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;&#10;System info: host: &apos;Viveks-MacBook-Air.local&apos;, ip: &apos;2604:3d09:2580:4b00:84d6:6612:b828:8906%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [disable-infobars, --disable-extensions, --disable-popup-blocking, --disable-notifications, enable-automation, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: /home/seluser/Downloads, download.directory_upgrade: true, download.extensions_to_open: applications/pdf, download.prompt_for_download: false, download_restrictions: 0, open_pdf_in_system_reader: false, plugins.always_open_pdf_externally: true, plugins.plugins_list: [Chrome PDF Viewer], profile.default_content_settings.popups: 0}}}}]&#10;Capabilities {}"/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.qaweapon.Test.GoogleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.qaweapon.Test.GoogleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterSuite" classname="com.qaweapon.Test.GoogleSearchTest" time="0">
+    <skipped/>
   </testcase>
 </testsuite>
